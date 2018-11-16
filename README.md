@@ -41,7 +41,7 @@ To use this library download the zip file or clone the repository, decompress it
   
    Offset value can be caliberated initially by measuring the voltage using DMM and comparing it with the measurement done by arduino. By default, this value is set to **0.0 volts**. 
    
-   Sensor (here, the resistor across which voltage is to be measured) can be connected in PULL_UP or PULL_DOWN manner. By default, configuration is set as [**PULL_DOWN**](https://electronics.stackexchange.com/questions/210643/pull-up-pull-down-resistor-confusion)
+   Sensor (here, the resistor across which voltage is to be measured) can be connected in [PULL_UP or PULL_DOWN](https://electronics.stackexchange.com/questions/210643/pull-up-pull-down-resistor-confusion) manner. By default, configuration is set as [**PULL_DOWN**](https://electronics.stackexchange.com/questions/210643/pull-up-pull-down-resistor-confusion)
 .
   
  or
@@ -67,7 +67,7 @@ To use this library download the zip file or clone the repository, decompress it
 
 ## History
 
-- Nov  16, 2018   - Version 1.0.0 released
+- Nov  16, 2018   - Version 1.0.0 released (Readme Updated)
 
 ## License
 
