@@ -36,12 +36,12 @@ To use this library download the zip file or clone the repository, decompress it
    
    *  Offset_Voltage: To get accurate voltage reading (by eliminating offset error due to ADC).  
    
-   *  Configuration: sensor connection to analog pin of arduino [PULL_UP or PULL_DOWN](https://electronics.stackexchange.com/questions/210643/pull-up-pull-down-resistor-confusion)
-  ```
+   *  Configuration: sensor connection to analog pin of arduino [PULL_UP or PULL_DOWN]  ```
   
    Offset value can be caliberated initially by measuring the voltage using DMM and comparing it with the measurement done by arduino. By default, this value is set to **0.0 volts**. 
    
-   Sensor (here, the resistor across which voltage is to be measured) can be connected in PULL_UP or PULL_DOWN manner. By default, configuration is set as **PULL_DOWN**.
+   Sensor (here, the resistor across which voltage is to be measured) can be connected in PULL_UP or PULL_DOWN manner. By default, configuration is set as [**PULL_DOWN**](https://electronics.stackexchange.com/questions/210643/pull-up-pull-down-resistor-confusion)
+.
   
  or
  
